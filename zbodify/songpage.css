@@ -1,0 +1,237 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+body{
+    background-color: #191919;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #101010;
+    padding: 14px 30px;
+  }
+  .topbar .home{
+    color: #7a7a7a;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    margin-right: 100px;
+    padding-top: 6px;
+    padding-left: 10px;
+  }
+  .topbar .home-icon{
+    color: #b3b3b3;
+  }
+ 
+  .topbar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .navbar ul {
+    list-style: none;
+  }
+  .topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+  }
+  .topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .home a:hover,.home a:focus,.home a:active{
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+  }
+  
+  .topbar .navbar button:hover,
+  .topbar .navbar button:active,
+  .topbar .navbar button:focus {
+    background-color: #f2f2f2;
+  }
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
+.song-rows{
+display: grid;
+grid-template-rows: repeat(7,1fr);
+max-height: 800px;
+}
+.song-rows h1{
+    padding-left: 30px;
+}
+.song-columns{
+    border: 2px solid #333;
+    padding: 30px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.song-columns h2{
+    padding-top: 40px;
+}
+.song-columns .check{
+    padding-top: 70px;
+}
+.songlist-columns{
+    display: grid;
+    border: 2px solid #333;
+    padding: 30px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.displaybox{
+    margin-top: 100px;
+    margin-left: 120px;
+    max-width: 1200px;
+    border: 0px solid #333;
+    border-radius: 16px;
+    background-color: rgb(41, 41, 41);
+    box-shadow: rgb(47, 47, 49) 0px 20px 30px -10px;
+}
+.displaybox h1{
+    
+    margin: 0px;
+}
+.albumlist-rows{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    padding-left: 30px;
+}
+.albumlist-content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #333;
+    padding-left: 10px;
+}
+.content-columns{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.navigationbar{
+    background: rgb(0, 0, 0); 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navigationdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 24px; 
+    font-weight: 600;
+     color: white;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; 
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+button a{
+    color: white;  
+    font-size: 12px;
+}
+a{
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+  }
+  .topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+  }
+  .topbar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .navbar ul {
+    list-style: none;
+  }
+  .topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+  }
+  .topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+  }
+  
+  .topbar .navbar button:hover,
+  .topbar .navbar button:active,
+  .topbar .navbar button:focus {
+    background-color: #f2f2f2;
+  }
+  .content-columns a{
+  
+    background-color: rgb(67, 45, 149);
+    border: 0px solid ;
+    border-radius: 26px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+  }
+  .content-columns a:hover,a:focus,a::after{
+    text-decoration: none;
+    color: #fff;
+  }
+  .content-columns .play-buttons{
+    margin-top: 22px;
+  }

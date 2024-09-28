@@ -1,0 +1,86 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+body{
+    background-color: #a9a9a9;
+}
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
+.song-rows{
+display: grid;
+grid-template-rows: repeat(3,1fr);
+max-height: 600px;
+}
+.song-rows h1{
+    padding-left: 30px;
+}
+.song-columns{
+    border: 2px solid #333;
+    padding: 30px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.song-columns h2{
+    padding-top: 40px;
+}
+.song-columns .check{
+    padding-top: 70px;
+}
+.songlist-columns{
+    display: grid;
+    border: 2px solid #333;
+    padding: 30px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.displaybox{
+    margin-top: 100px;
+    margin-left: 120px;
+    max-width: 1200px;
+    border: 2px solid #333;
+    border-radius: 16px;
+    background-color: rgb(41, 41, 41);
+}
+.displaybox h1{
+   
+    margin: 0px;
+}
+.navigationbar{
+    background: rgb(0, 0, 0); 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navigationdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 24px; 
+    font-weight: 600;
+     color: white;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; 
+    font-size: 18px;
+    margin-right: 25px;
+}
+button{
+    background-color: black;
+     margin-left: 10px; 
+     border-radius: 10px;
+     padding: 10px;
+     width: 90px;
+}
+button a{
+    color: white;  
+    font-size: 12px;
+}
